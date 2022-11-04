@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/drawable/ic_baseline_work_outline_24.xml" value="0.1945" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/fragment_contact_me.xml" value="0.22" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/nav_header.xml" value="0.14" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/menu/activity_main_drawer_items.xml" value="0.4475" />
       </map>
