@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/aboutMeFragment">
+
+    <fragment
+        android:id="@+id/aboutMeFragment"
+        android:name="com.olisemeka.myresume.AboutMeFragment"
+        android:label="@string/about_me"
+        tools:layout="@layout/fragment_about_me" />
+    <fragment
+        android:id="@+id/workExperienceFragment"
+        android:name="com.olisemeka.myresume.WorkExperienceFragment"
+        android:label="@string/work_experience"
+        tools:layout="@layout/fragment_work_experience" />
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="com.olisemeka.myresume.EducationFragment"
+        android:label="@string/education"
+        tools:layout="@layout/fragment_education" />
+    <fragment
+        android:id="@+id/skillsFragment"
+        android:name="com.olisemeka.myresume.SkillsFragment"
+        android:label="@string/skills"
+        tools:layout="@layout/fragment_skills" />
+    <fragment
+        android:id="@+id/contactMeFragment"
+        android:name="com.olisemeka.myresume.ContactMeFragment"
+        android:label="@string/contact_me"
+        tools:layout="@layout/fragment_contact_me" />
+</navigation>

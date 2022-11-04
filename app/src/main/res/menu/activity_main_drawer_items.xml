@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutMeFragment"
+            android:icon="@drawable/ic_baseline_person_outline_24"
+            android:title="@string/about_me"/>
+
+        <item
+            android:id="@+id/workExperienceFragment"
+            android:icon="@drawable/ic_baseline_work_outline_24"
+            android:title="@string/work_experience"/>
+
+        <item
+            android:id="@+id/educationFragment"
+            android:icon="@drawable/ic_baseline_school_24"
+            android:title="@string/education"/>
+
+        <item
+            android:id="@+id/skillsFragment"
+            android:icon="@drawable/ic_baseline_code_24"
+            android:title="@string/skills"/>
+
+        <item
+            android:id="@+id/contactMeFragment"
+            android:icon="@drawable/ic_baseline_phone_24"
+            android:title="@string/contact_me"/>
+
+    </group>
+
+</menu>
