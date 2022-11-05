@@ -1,59 +1,47 @@
 package com.olisemeka.myresume
 
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.style.BulletSpan
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.olisemeka.myresume.databinding.FragmentAboutMeBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [AboutMeFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class AboutMeFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    private var _binding: FragmentAboutMeBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about_me, container, false)
+        _binding = FragmentAboutMeBinding.inflate(layoutInflater)
+        return binding.root
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment AboutMeFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            AboutMeFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val likes = SpannableString("\tFamily & Friends\n\n\tFootball\n\n\tFood")
+        val hobbies = SpannableString("\tWatching and analysing football games\n\n\tWatching and analysing Arsenal games\n\n\tPlaying and analysing Football Manager games")
+
+        likes.apply{
+            setSpan(BulletSpan(), 0, 16, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+            setSpan(BulletSpan(), 19, 27, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+            setSpan(BulletSpan(), 30, 34, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        }
+
+        hobbies.apply {
+            setSpan(BulletSpan(), 0, 37, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+            setSpan(BulletSpan(), 40, 76, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+            setSpan(BulletSpan(), 79, 122, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        }
+
+        binding.tvLikes.text = likes
+        binding.tvHobbies.text = hobbies
+
     }
 }

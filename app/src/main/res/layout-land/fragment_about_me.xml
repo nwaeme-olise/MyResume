@@ -66,7 +66,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
         android:fontFamily="@font/montserrat_extrabold"
         android:text="My top 3 likes are:"
         android:textColor="@color/black"
