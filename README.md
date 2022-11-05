@@ -27,7 +27,7 @@ A native Android app that displays the user's CV/resume digitally.
  
  * Viewbinding - For easy access to individual UI views/components in code.
  * Navigation Component - For setting up the navigation to and from different screens/destinations in the app.
- * Material Design Components - Copmpnents like Material Toolbar and Navigation Drawer were used to give the app a nice look and feel.
+ * Material Design Components - Components like Material Toolbar and Navigation Drawer were used to give the app a nice look and feel.
  * CircleImageView - For creating round-shaped images in the app.
  
  # Nice-to-haves 
