@@ -15,7 +15,7 @@
         android:id="@+id/ivImage"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:src="@drawable/myprofileimage"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,13 +127,16 @@
 
     <TextView
         android:id="@+id/tvLinkedIn"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="@string/linkedin_link"
         android:textColorLink="#0000EE"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5" />
 
     <TextView
