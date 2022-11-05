@@ -29,6 +29,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/montserrat_extrabold"
         android:text="Nwaeme Olisemeka Ephraim"
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/ivImage"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,6 +40,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/montserrat_semibold"
         android:text="Early Career Android Developer"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -94,6 +96,7 @@
         android:layout_marginStart="16dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="09028815300"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
@@ -105,6 +108,7 @@
         android:layout_marginStart="16dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="onwaeme@gmail.com"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
@@ -116,6 +120,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_bold"
         android:text="Lagos, Nigeria"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
@@ -126,6 +131,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_regular"
         android:text="@string/linkedin_link"
+        android:textColorLink="#0000EE"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5" />
@@ -136,6 +142,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_regular"
         android:text="@string/github_link"
+        android:textColorLink="#0000EE"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="@+id/tvLinkedIn"
         app:layout_constraintTop_toTopOf="@+id/imageView6" />

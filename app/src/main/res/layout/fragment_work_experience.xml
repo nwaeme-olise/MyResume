@@ -39,6 +39,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_black"
         android:text="Android Software Instructor"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/line"
@@ -51,6 +52,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="NIIT"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -70,6 +72,7 @@
         android:layout_marginStart="12dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Sep 2022 - Present"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -102,6 +105,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_black"
         android:text="Coding and Robotics Instructor"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/line2"
@@ -114,6 +118,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Nigenius"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -133,6 +138,7 @@
         android:layout_marginStart="12dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="February 2022 - September 2022"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7" />
@@ -165,6 +171,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_black"
         android:text="Volunteer IT Instructor"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/line3"
@@ -177,6 +184,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="NITDA"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView12"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -187,6 +195,7 @@
         android:layout_marginStart="12dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="December 2021"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toTopOf="@+id/imageView8" />
@@ -228,6 +237,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_black"
         android:text="Software Engineer Intern"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/line4"
@@ -240,6 +250,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="CITS"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView15"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -250,6 +261,7 @@
         android:layout_marginStart="12dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="June 2019 - December 2019"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toTopOf="@+id/imageView9" />
