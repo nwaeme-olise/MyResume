@@ -8,6 +8,6 @@
     <string name="skills">Skills</string>
     <string name="contact_me">Contact Me</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="linkedin_link"><a href="https://www.linkedin.com/in/olisemeka-nwaeme">https://www.linkedin.com/in/olisemeka-nwaeme</a></string>
-    <string name="github_link"><a href="https://www.github.com/nwaeme-olise">https://www.github.com/nwaeme-olise</a></string>
+    <string name="linkedin_link"><a href="https://www.linkedin.com/in/olisemeka-nwaeme">https://linkedin.com/in/olisemeka-nwaeme</a></string>
+    <string name="github_link"><a href="https://www.github.com/nwaeme-olise">https://github.com/nwaeme-olise</a></string>
 </resources>

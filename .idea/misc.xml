@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/drawable/dot.xml" value="0.1785" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/drawable/ic_baseline_work_outline_24.xml" value="0.1945" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/font/font.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/fragment_about_me.xml" value="0.18645833333333334" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/fragment_contact_me.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/fragment_contact_me.xml" value="0.25" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/fragment_skills.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/fragment_work_experience.xml" value="0.25" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/list_item_skill.xml" value="0.22" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/nav_header.xml" value="0.14" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/layout/nav_header.xml" value="0.5" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/MyResume/app/src/main/res/menu/activity_main_drawer_items.xml" value="0.4475" />
       </map>
     </option>
