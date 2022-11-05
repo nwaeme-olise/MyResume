@@ -47,3 +47,10 @@ A native Android app that displays the user's CV/resume digitally.
  
  Click [here](https://appetize.io/app/peac2vx3o3b2duiatlmiqcxriq?device=pixel4&osVersion=11.0&scale=75) to try the app out.
  
+ # Screenshots
+ 
+ ![About Me](https://user-images.githubusercontent.com/35772751/200143279-b501f493-cec6-4769-acf7-2f740f6babd8.png)
+ ![Navigation Drawer](https://user-images.githubusercontent.com/35772751/200143406-5ac8f0af-b1d2-41bc-bbda-16aef6f2ba07.png)
+ ![Education](https://user-images.githubusercontent.com/35772751/200143419-b40f9dd7-f5bb-4f9b-8c11-a92873146237.png)
+
+ 
